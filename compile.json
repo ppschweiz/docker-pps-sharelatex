@@ -1,0 +1,25 @@
+{
+    "compile": {
+        "options": {
+            "compiler": "xelatex",
+            "timeout": 40 
+        },
+        "rootResourcePath": "main.tex", 
+        "resources": [{
+            "path": "main.tex",
+            "url": "https://api.piratenpartei.ch/api/v1/letterman/2eb1ac1936b4334fc0d2/2942/texinvoiceletterde"
+        }, {
+            "path": "esr.sty",
+            "url": "https://www.hug.cx/tmp/inv/esr.sty"
+        }, {
+            "path": "esrpos.sty",
+            "url": "https://www.hug.cx/tmp/inv/esrpos.sty"
+        }, {
+            "path": "orange-pay.png",
+            "url": "https://www.hug.cx/tmp/inv/orange-pay.png"
+        }, {
+            "path": "sig.png",
+            "url": "https://www.hug.cx/tmp/inv/sig.png"
+        }]
+    }
+}
