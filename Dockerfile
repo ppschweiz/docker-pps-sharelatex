@@ -1,6 +1,7 @@
 FROM sharelatex/sharelatex
 
 # Install full environment
+RUN tlmgr update --self
 RUN tlmgr install scheme-full
 
 # Install PPS styles
